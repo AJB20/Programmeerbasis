@@ -1,4 +1,5 @@
 <?PHP
+#while lus MEE VERDER
     $teller=1;
     $maximum=10;
 echo "Teller is voor de whle lus ".$teller."\n";
