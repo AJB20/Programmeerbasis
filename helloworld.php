@@ -1,9 +1,9 @@
 <?php
-$tekst="Hello World!\n";
+$jelleleertprogrammerenYT="Welkom op mijn kanaal! abonneer voor meer!\n";
 
-echo $tekst;
-echo $tekst;
-echo $tekst;
-echo $tekst;
-echo $tekst;
+echo $jelleleertprogrammerenYT;
+echo $jelleleertprogrammerenYT;
+echo $jelleleertprogrammerenYT;
+echo $jelleleertprogrammerenYT;
+echo $jelleleertprogrammerenYT;
 ?>
