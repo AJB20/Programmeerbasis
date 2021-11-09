@@ -8,5 +8,5 @@ echo "hello world \n";
 echo "hello world \n";
 echo "hello world \n";
 echo "hello world \n";
-#ik verwacht dat het 4x word laten zien en daarna nieuwe lijnen
+#ik verwacht dat het 4x word laten zien.
 ?>
