@@ -1,11 +1,5 @@
 <?php
-#in dit php bestand ga ik verschillende arrays proberen.
-
-#array 1 
-#array dat de inhoud vrijdag,zaterdag,zondag heeft.
-$weekenddagen= array("vrijdag","zaterdag","zondag");
-echo $weekenddagen[0]
-#met echo word de inhoud laten zien van de array maar om andere uitkomsten te krijgen moet je het nummer veranderen.
-
-
+$weekend=readline("wil je weten wanneer het weekend is?");
+$weekenddagen= array("vrijdag-avond","zaterdag","zondag");
+echo "$weekenddagen[0] ". "$weekenddagen[1] ". "$weekenddagen[2] "; 
 ?>
