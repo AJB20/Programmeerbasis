@@ -1,5 +1,15 @@
-<?php
+Lisng 9.2: tafel.php
+ <?php
 
-$invoer = readline("Geef een woord : ");
-echo  "Jij gaf het volgende woord: $invoer \n"
-?>
+ $tafel=readline("Welke tafel wil je zien? ");
+ $begin=1;
+ $eind=10;
+
+ echo "\n\nTafel van $tafel:\n";
+
+ for ($teller=$begin;$teller<=$eind;$teller++) {
+ $product=$teller*$tafel;
+ echo $teller." x ".$tafel." = "$product."\n";
+ }
+
+ ?>
