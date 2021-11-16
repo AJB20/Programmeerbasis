@@ -1,5 +1,15 @@
 <?php
-$weekend=readline("wil je weten wanneer het weekend is?");
-$weekenddagen= array("vrijdag-avond","zaterdag","zondag");
-echo "$weekenddagen[0] ". "$weekenddagen[1] ". "$weekenddagen[2] "; 
+$select="Euro=0 Dollar=1 Kronen=2\n";
+echo "$select";
+$valgb=readline("welk valuta wil je selecteren?");
+return  
+echo"$valgb";
+$valuta=array("Euro","Dollar","Kronen");
+echo "$valuta[1]"
+
+
+
+
+
+
 ?>
