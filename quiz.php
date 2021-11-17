@@ -1,6 +1,1 @@
-<?php
-
-
-
-
->? 
+#compleet kansloze niet werkende code zie quiz1.php voor verdere verbeteringen
