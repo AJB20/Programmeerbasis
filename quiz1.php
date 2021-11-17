@@ -2,8 +2,16 @@
 $random = rand(1,1);
 $raad= readline("raad het getal, voer getal in: \n");
 
-
 echo "$raad \n";
+
+
+
+if ($raad>100){
+    exit("getal kan niet groter zijn dan 100!");
+}
+if ($raad<1) {
+    exit("Getal kan niet lager zijn dan 1 !");
+}
 
   if ($raad ==$random) {
     echo "juist\n";   
