@@ -12,6 +12,7 @@ $random = rand(1,2);
 #bij $vraag word er van de user gevraagt om een getal.
 $vraag=readline("voer uw bedachte getal in: \n");
 
+print "$raad \n";
 
 #hier worden de functies stoppen_cijfer en stop_woord en goed_hoog_laag uitgevoerd
 stoppen_cijfer()&&stop_woord(); 
