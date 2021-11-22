@@ -39,14 +39,12 @@ if ($spelernummer>100) {
     }
     elseif ($spelernummer>$programma_nummer) {
         $aantalx_raden++;
-        readline ("te hoog getal probeer opnieuw ");
-        echo "aantal keer geprobeert: $aantalx_raden";
+        getal_raden();
         exit();
     }
     elseif ($spelernummer<$programma_nummer) {
         $aantalx_raden++;
-        readline("te laag getal probeer opnieuw ");
-        echo "aantal keer geprobeert: $aantalx_raden"; 
+        getal_raden();
         exit();
         
        
