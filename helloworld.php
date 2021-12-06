@@ -1,9 +1,9 @@
 <?php
-$jelleleertprogrammerenYT="Welkom op mijn kanaal! abonneer voor meer!\n";
+$arcticjelle="Welkom bij arcticjelleTM\n";
 
-echo $jelleleertprogrammerenYT;
-echo $jelleleertprogrammerenYT;
-echo $jelleleertprogrammerenYT;
-echo $jelleleertprogrammerenYT;
-echo $jelleleertprogrammerenYT;
+echo $arcticjelle;
+echo $arcticjelle;
+echo $arcticjelle;
+echo $arcticjelle;
+echo $arcticjelle;
 ?>
