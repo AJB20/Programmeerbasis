@@ -1,13 +1,14 @@
-<?PHP
-#while lus MEE VERDER
-    $teller=1;
-    $maximum=10;
-echo "Teller is voor de whle lus ".$teller."\n";
-    while ( $teller <= $maximum ) {
-        echo "teller is nu ".$teller."\n";
-        $teller++;
+<?php
 
-    }
-    echo "teller is na de while lus ".$teller."\n";
+ $teller=1;
+ $maximum=10;
 
+ echo "Teller is voor de while lus ".$teller."\n";
+
+ while ( $teller <= $maximum ) {
+     echo "Teller is nu ".$teller."\n";
+ $teller++;
+ }
+
+ echo "Teller is na de while lus ".$teller."\n";
 ?>
