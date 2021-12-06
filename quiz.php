@@ -52,4 +52,6 @@ if ($spelernummer>100) {
     }
 }
 
+getal_raden();
+
 ?>
