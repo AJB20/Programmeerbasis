@@ -52,6 +52,6 @@ if ($spelernummer>100) {
     }
 }
 
-getal_raden();
+getal_raden(); //funtie word uitgevoert.
 
 ?>
