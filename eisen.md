@@ -1,4 +1,4 @@
-1. Maak het programma Quiz.phpdat voldoet aan de volgende requirements:
+1. Maak het programma Quiz.php dat voldoet aan de volgende requirements:
    •Het programma kiest een willekeurig getal tussen de 1 en 100; FINISHED
    – De volgende PHP-code genereert een willekeurig getal tussen 1 FINISHED
    en 100 en slaat deze op in de variabele $random; FINISHED

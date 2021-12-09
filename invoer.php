@@ -1,4 +1,4 @@
-
+ //NIET WERKEND
  <?php
 //code onderzoeken want ik begrijp het nog niet.
  $tafel=readline("Welke tafel wil je zien? ");

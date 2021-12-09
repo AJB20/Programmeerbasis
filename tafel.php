@@ -1,4 +1,5 @@
 <?php
+//NIET WERKEND
  $tafel=readline("Welke tafel wil je zien? ");
  $begin=1;
  $eind=10;
