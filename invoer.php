@@ -1,16 +1,6 @@
- //NIET WERKEND
- <?php
-//code onderzoeken want ik begrijp het nog niet.
- $tafel=readline("Welke tafel wil je zien? ");
- $begin=1;
- $eind=10;
- $teller=$begin;$teller<=$eind;$teller++;
- echo "Tafel van $tafel:\n";
+<?php
+$invoer = readline("Geef een woord : "); //variabele $invoer waar de gebruiker doormiddel van een readline om een woord gevraagt word.
+echo "Jij gaf het volgende woord: $invoer"; //de gebruiker zijn woord word hier getoont
+echo "\n"; //een nieuwe lijn word gemaakt zonder tekst.
 
- for($teller=$begin;$teller<=$eind;$teller++); {
- $product=$teller*$tafel;
- echo "$teller."keer".$tafel." = $product."\n";
- }
-}
-
- ?>
+?>
