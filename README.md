@@ -1,5 +1,5 @@
 ![](https://github.com/arcticjelle/images/blob/main/arctic%20jelle.png)
-arcticjelleTM phpapps  is a repository for the programming assigment.  
+arcticjelleTM programmeerbasis  is a repository for the programming assigment.  
 to learn more about the assignment, look at requirements.md .
 All latest versions can be found in the directory.
 
