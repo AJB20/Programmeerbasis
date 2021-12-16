@@ -6,12 +6,9 @@
 #ar = aantal keer raden
 #pnum= programma nummer
 #gr=functie getal raden 
-
-
-
 echo "Welkom,\n\n";
-echo "Regels:\n Getal onder de 1 NIET toegestaan.\n getal boven de 100 NIET toegestaan.\n wilt u stoppen? typ: s of stop.\n\n";
-echo "worden de regels van dit programma overtreden stopt het programma!\n\n";
+echo "Regels:\n Getal onder de 1 NIET toegestaan.\n Getal boven de 100 NIET toegestaan.\n  \n  wilt u stoppen? typ: s of stop.\n\n";
+echo "als u niet aan de hierboven regels houd stopt het programma.\n\n";
 $pnum= rand(1,100);
 echo $pnum;
 $ar =0;
@@ -22,13 +19,13 @@ $ar =0;
 function gr() {
 global $pnum;
 global $ar;
-$snum= readline("\n\n\n\n uw getal: \n\n");
+$snum= readline("\n\n\n\n typ hier uw getal, dat u denkt dat het programma heeft bedacht.: \n\n");
 $snum= intval($snum);
 
 
 #if snum = stop betekent dat als snum gelijk is aan het woord  stop dan stopt het programma.
 if ($snum=="stop"&&$snum=="s") {
-    die("het programma stopt");
+    die("Bedankt voor het gebruik van het programma!\n Programma is gestopt.");
 }
  
 #ingevoerd getal kleiner dan 1 stop het programma
@@ -42,18 +39,17 @@ if ($snum>100) {
 #als spelernummmer gelijk aan programma nummer is laat dan onderstaande zien en stop het programma
     if ($snum==$pnum) {
         $ar++;
-        echo "goed\n\n";
-        echo "goed geraden! keren: $ar";        
+        echo "goed geraden! keren geprobeert: $ar.";        
     }
     #als snum groter is dan programma nummer is tel +1 pogingen er bij en laat te hoog zien geef user nog een kans en stop het programma
     elseif ($snum>$pnum) {
-        echo("TE HOOG\n\n");
+        echo("te hoog getal");
         gr($pnum,$ar++);
     }
     #als snum lager is dan programma nummer is tel +1 pogingen er bij en laat te hoog zien geef user nog een kans en stop het programma
     
     elseif ($snum<$pnum) {
-        echo("TE LAAG\n\n");
+        echo("te laag getal ");
         gr($pnum,$ar++);  //hier word de functie getal raden aangeroepen en parameters pnum en ar          
     }  
 }
