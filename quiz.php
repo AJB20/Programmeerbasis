@@ -7,7 +7,7 @@
 #pnum= programma nummer
 #gr=functie getal raden 
 echo "Welkom,\n\n";
-echo "Regels:\n Getal onder de 1 NIET toegestaan.\n Getal boven de 100 NIET toegestaan.\n  \n  wilt u stoppen? typ: s of stop.\n\n";
+echo "Regels:\n helaas zijn getallen onder de 1 niet toegestaan, dan stopt het programma.\n helaas zijn getallen boven de 100 niet toegestaan, dan stopt het programma\n  \n  wilt u het programma stoppen? typ: s of stop.\n\n";
 echo "als u niet aan de hierboven regels houd stopt het programma.\n\n";
 $pnum= rand(1,100);
 echo $pnum;
