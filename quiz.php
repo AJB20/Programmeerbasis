@@ -7,7 +7,7 @@
 #pnum= programma nummer
 
 echo "Welkom,\n\n";
-echo "is uw getal onder de 1 dan stopt het programma\n is uw getal boven de 100 dan stopt het programma\n\n stoppen? type: stop.\n";
+echo "REGELS:\n\n getal onder de 1 niet toegestaan. \n\n getal boven de 100 niet toegestaan\n\n stoppen? typ: s of stop.\n\n\n\n";
 $pnum= rand(1,100);
 echo $pnum;
 $ar =0;
@@ -18,13 +18,15 @@ $ar =0;
 function getal_raden() {
 global $pnum;
 global $ar;
-$snum= readline("uw getal: \n\n");
+$snum= readline("\n\n\n\n uw getal: \n\n");
 $snum= intval($snum);
 
 
 #if snum = stop betekent dat als snum gelijk is aan het woord  stop dan stopt het programma.
-if ($snum=="stop") {
-    die("gestopt"); 
+if ($snum=="stop"&&$snum=="s") {
+    die("het programma stopt");
+}
+ 
 #ingevoerd getal kleiner dan 1 stop het programma
 if ($snum<1) {
     die();
