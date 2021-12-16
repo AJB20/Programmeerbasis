@@ -53,8 +53,7 @@ if ($snum>100) {
     #als snum lager is dan programma nummer is tel +1 pogingen er bij en laat te hoog zien geef user nog een kans en stop het programma
     
     elseif ($snum<$pnum) {
-        echo("TE LAAG\n\n ");
-        echo("\u{U+1F613}")
+        echo("TE LAAG\n\n");
         gr($pnum,$ar++);  //hier word de functie getal raden aangeroepen en parameters pnum en ar          
     }  
 }
