@@ -19,7 +19,7 @@ $ar =0;
 function gr() {
 global $pnum;
 global $ar;
-$snum= readline("\n\n\n\n typ hier uw getal, dat u denkt dat het programma heeft bedacht.: \n\n");
+$snum= readline("\n\n\n\n hier kun u uw bedachte getal typen succes! uw getal:\n\n");
 $snum= intval($snum);
 
 
