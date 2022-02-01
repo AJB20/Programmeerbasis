@@ -1,5 +1,4 @@
-![](https://github.com/arcticjelle/images/blob/main/arctic%20jelle.png)
-arcticjelleTM phpapps  is a repository for the programming assigment.  
+phpapps  is a repository for the programming assigment.  
 to learn more about the assignment, look at requirements.md .
 All latest versions can be found in the directory.
 
@@ -11,7 +10,7 @@ We want to make it super-easy for arcticjelleTM users and contributors to talk t
 We welcome all questions and contributions!
 Twitter
 
-@arcticjelle for official contact.
+
 
 GitHub
 If you spot a bug, then please raise an issue in the GitHub repository of the component in question. Likewise if you have developed a cool new feature or an improvement, please open a pull request, we'll be glad to integrate it!
