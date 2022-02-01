@@ -6,7 +6,7 @@ All latest versions can be found in the directory.
 
 Need help?
 
-We want to make it super-easy for arcticjelleTM users and contributors to talk to us and connect with each other, to share ideas, solve problems and help make arcticjelleTM awesome. Here are the main channels we're running currently, we'd love to hear from you on one of them:
+We want to make it super-easy for  users and contributors to talk to us and connect with each other, to share ideas, solve problems and help make arcticjelleTM awesome. Here are the main channels we're running currently, we'd love to hear from you on one of them:
 We welcome all questions and contributions!
 Twitter
 
